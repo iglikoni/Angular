@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3em;
+    align-items: center;
+}
+
