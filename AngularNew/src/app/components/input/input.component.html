@@ -1,1 +1,14 @@
-<p>input works!</p>
+
+<div>
+    <input type="text"
+class="form-controll"
+[(ngModel)]="inputValue">
+<h2>{{inputValue}}</h2>
+
+
+<button class="btn btn-primary"
+[disabled]="inputValue === ''" 
+(click)="inputValue = '' "
+>Click</button>
+
+</div>

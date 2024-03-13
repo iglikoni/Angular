@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class ButtonComponent {
 
+  value: number=0;
+
+  increase(): void {
+    this.value++;
+  }
+
+  decrease(): void {
+      this.value--;
+  }
 }
